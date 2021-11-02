@@ -1,4 +1,4 @@
-from keqing_my_waifu.pyosm import PyOsm
+from keqing_sword.kqs_class import PyOsm
 
 # 从.osm文件加载PyOsm对象
 pyosm = PyOsm()
