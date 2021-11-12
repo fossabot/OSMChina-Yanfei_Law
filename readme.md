@@ -1,13 +1,13 @@
 # OSMChina-Validator
 
-##　中文拷贝器
+## 中文拷贝器 Namezh_copy
 
 ### 使用示例
 
 把有name但没有name:zh标签的点，设置name:zh为name的值。
 
 
-## 分支名称分割器
+## 分支名称分割器 Branch_Name_Splitter
 
 用于OSM数据处理的分支名称分割器。
 
