@@ -1,0 +1,6 @@
+<Yanfei_Law>
+<name>中文拷贝</name>
+            <description></desctiption>
+            <touch>node[name][!"name:zh"];way[name][!name:zh];relation[name][!name:zh]</touch>
+       
+</Yanfei_Law>

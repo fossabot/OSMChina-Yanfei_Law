@@ -1,0 +1,9 @@
+<OSMChina>
+    <Yanfei_Law>
+        <Rule id="1">
+            <name>中文拷贝</name>
+            <description></desctiption>
+            <touch>node[name][!"name:zh"];way[name][!name:zh];relation[name][!name:zh]</touch>
+        </Rule>
+    </Yanfei_Law>
+</OSMChina>
