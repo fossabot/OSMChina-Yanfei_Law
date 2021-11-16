@@ -1,6 +1,7 @@
 <Yanfei_Law>
     <id>1</id>
     <description></desctiption>
+    <mode>rule</mode>
     <trigger>
         <meta-trigger id="1">
             nwr[name][!"name:zh"];

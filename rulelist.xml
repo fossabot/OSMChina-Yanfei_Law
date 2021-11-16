@@ -3,7 +3,7 @@
         <id>1</id>
         <name>当地语言拷贝器</name>
         <package>locallang-duplicator<package>
-            <argument>
+            <argument><!--理论上这里应该有入参，但是暂不开发，默认……OSMChina的项目显然默认zh啊-->
                 <meta-argument id="1">
                     <name>langcode</name>
                     <type>string</type>
