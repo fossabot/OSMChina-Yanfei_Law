@@ -1,6 +1,9 @@
 <Yanfei_Law>
-<id>1</id>
-            <description></desctiption>
-            <touch>node[name][!"name:zh"];way[name][!name:zh];relation[name][!name:zh]</touch>
-       
+    <id>1</id>
+    <description></desctiption>
+    <touch>node[name][!"name:zh"];way[name][!"name:zh"];relation[name][!"name:zh"]</touch>
+    <action>
+        <pre-action>None</pre-action>
+        <after-action>IF node[i][name:zh] != node[i][name]{}; IF node[i][!"name:zh"]</after-action>
+    </action>
 </Yanfei_Law>
