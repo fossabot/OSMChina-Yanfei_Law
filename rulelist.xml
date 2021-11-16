@@ -1,9 +1,13 @@
-<OSMChina>
-    <Yanfei_Law>
-        <Rule id="1">
-            <name>中文拷贝</name>
-            <description></desctiption>
-            <touch>node[name][!"name:zh"];way[name][!name:zh];relation[name][!name:zh]</touch>
-        </Rule>
-    </Yanfei_Law>
-</OSMChina>
+<Yanfei_Law>
+        <RuleList>
+        <id>1</id>
+        <name>当地语言拷贝器</name>
+        <package>locallang-duplicator<package>
+        <argument>
+        <arg id="1">
+        <name>langcode</name>
+        <type>string</type>
+        </arg>
+        </argument>
+        </RuleList>
+</Yanfei_Law>

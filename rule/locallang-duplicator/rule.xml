@@ -1,5 +1,5 @@
 <Yanfei_Law>
-<name>中文拷贝</name>
+<id>1</id>
             <description></desctiption>
             <touch>node[name][!"name:zh"];way[name][!name:zh];relation[name][!name:zh]</touch>
        
