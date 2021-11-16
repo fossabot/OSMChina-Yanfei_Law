@@ -1,5 +1,9 @@
 # OSMChina-Validator
 
+规则中如果有node，way，relation共存同样内容的，可以用nwr表示
+
+rule的mode如果是rule，就按照rule执行，否则作为单独的validator程序
+
 ## 中文拷贝器 Namezh_copy
 
 ### 使用示例

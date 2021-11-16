@@ -1,9 +1,21 @@
 <Yanfei_Law>
     <id>1</id>
     <description></desctiption>
-    <touch>node[name][!"name:zh"];way[name][!"name:zh"];relation[name][!"name:zh"]</touch>
+    <trigger>
+        <meta-trigger id="1">
+            nwr[name][!"name:zh"];
+        </meta-trigger>
+        <meta-trigger id="2">
+            None<!--这里应该写一个name:zh和name不等的时候的情况，但是我还没设计好kqs里面怎么查询，暂时略-->
+        </meta-trigger>
+    </trigger>
     <action>
-        <pre-action>None</pre-action>
-        <after-action>IF node[i][name:zh] != node[i][name]{}; IF node[i][!"name:zh"]</after-action>
+        <pre-action>
+            None<!--不需要处理前操作-->
+        </pre-action>
+        <after-action>
+            IF (node[i][!"name:zh"]){};<!--设计为条件判断需要用()和{}来包装，有点类似C语言的意思，可能作为对KQS的一种标记吧，{}里面可以是KQS的Insert或者Update语句-->
+            IF (node[i][name:zh] != node[i][name]){};
+        </after-action>
     </action>
 </Yanfei_Law>

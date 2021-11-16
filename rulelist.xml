@@ -1,13 +1,13 @@
 <Yanfei_Law>
-        <RuleList>
+    <RuleList>
         <id>1</id>
         <name>当地语言拷贝器</name>
         <package>locallang-duplicator<package>
-        <argument>
-        <arg id="1">
-        <name>langcode</name>
-        <type>string</type>
-        </arg>
-        </argument>
+            <argument>
+                <meta-argument id="1">
+                    <name>langcode</name>
+                    <type>string</type>
+                </meta-argument>
+            </argument>
         </RuleList>
-</Yanfei_Law>
+    </Yanfei_Law>
