@@ -4,6 +4,12 @@
 
 rule的mode如果是rule，就按照rule执行，否则作为单独的validator程序
 
+执行完每个rule以后做diff是必须操作，不需要写在rule里面作为一个action
+
+### 禁令
+
+若发现存在标签为```process_with_robot```之类的东西，任何一个rule都不能在该元素上执行，但可以在其他元素执行
+
 ### 依赖
 
 [Keqing_Sword](https://github.com/OSMChina/OSMChina-Keqing_Sword)
@@ -12,7 +18,7 @@ rule的mode如果是rule，就按照rule执行，否则作为单独的validator�
 
 需要安装前置依赖库，需要在本项目的根目录下运行：
 
-```python
+```shell
 pip install -r requirements.txt
 ```
 

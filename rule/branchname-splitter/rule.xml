@@ -2,4 +2,15 @@
     <id>1</id>
     <description></desctiption>
     <mode>package</mode>
+    <trigger>
+        <meta-trigger id="1">
+            nwr[amenity=bank][name~"^(支行|分行)"];
+        </meta-trigger>
+        <meta-trigger id="2">
+            nwr[amenity=hotel][name~"^(内宾|外宾)"];
+        </meta-trigger>
+        <meta-trigger id="3">
+            nwr[amenity][name~"^(分店)"];
+        </meta-trigger>
+    </trigger>
 </Yanfei_Law>
