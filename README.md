@@ -1,4 +1,6 @@
 # OSMChina-Validator
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLaoshuBaby%2FOSMChina-Yanfei_Law.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FLaoshuBaby%2FOSMChina-Yanfei_Law?ref=badge_shield)
+
 
 规则中如果有node，way，relation共存同样内容的，可以用nwr表示
 
@@ -37,3 +39,7 @@ pip install -r requirements.txt
 仅适用于中国内地的简体中文地区。未特殊指明的均仅处理简体中文，指明了的没开发的也默认语言代码为zh
 
 修改后请逐个人工检查修改结果！
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLaoshuBaby%2FOSMChina-Yanfei_Law.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FLaoshuBaby%2FOSMChina-Yanfei_Law?ref=badge_large)
